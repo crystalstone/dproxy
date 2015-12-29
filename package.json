@@ -2,7 +2,7 @@
     "author": {
         "name": "stone"
     },
-    "name": "dproxy",
+    "name": "dpac",
     "description": "",
     "version": "1.0.0",
     "repository": {
@@ -17,7 +17,7 @@
         "request": ">=2.1.0"
     },
     "bin": {
-        "dproxy": "./bin/dproxy"
+        "dpac": "./bin/dproxy"
     },
     "scripts": {
         "start": "node src/index.js"

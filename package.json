@@ -1,0 +1,26 @@
+{
+    "author": {
+        "name": "stone"
+    },
+    "name": "dpac",
+    "description": "",
+    "version": "0.0.1",
+    "repository": {
+    },
+    "main": "./src/index.js",
+    "keywords": [
+    ],
+    "dependencies": {
+        "http-proxy": "<=0.10.4",
+        "request": ">=2.1.0"
+    },
+    "bin": {
+        "dproxy": "./bin/dproxy"
+    },
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
